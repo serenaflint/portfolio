@@ -23,9 +23,9 @@ body {
 }
 
 .page-bg {
-  /*background: url("./me.jpg") no-repeat top center;*/
-  background-color: #000000;
-  /*background-size: cover;*/
+  background: #000, url("https://www.teahub.io/photos/full/231-2316314_dark-floral-backgrounds-download-pixelstalk-best-images-desktop.jpg") no-repeat top center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  background-size: cover;
   z-index: -1;
 }
 
