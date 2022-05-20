@@ -23,7 +23,8 @@ body {
 }
 
 .page-bg {
-  background: #000, url('/flower.jpg') no-repeat top center;
+  /*background: #000, url('./flower.jpg') no-repeat top center;*/
+  background-color: black;
   background-size: cover;
   z-index: -1;
 }
