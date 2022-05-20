@@ -24,7 +24,6 @@ body {
 
 .page-bg {
   background: #000, url(flower.jpg) no-repeat top center;
-  box-shadow: inset 0 0 0 1000px rgba(39, 35, 35, 0.03);
   background-size: cover;
   z-index: -1;
 }
