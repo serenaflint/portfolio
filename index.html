@@ -4,24 +4,76 @@
   <title>Serena Flint</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./parallax.css">
 </head>
 <body>
 
 <!-- partial:index.partial.html -->
 <!-- PARTICLE SYSTEM -->
-<div class="page-bg"></div>
 
-
-<div class="animation-wrapper">
-  <div class="particle particle-1"></div>
-  <div class="particle particle-2"></div>
-  <div class="particle particle-3"></div>
-  <div class="particle particle-4"></div>
+<!-- <div class="page-bg"></div> -->
+<div class="parallax">
+  <div id="group1" class="parallax__group">
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">Group 1</div>
+    </div>
+  </div>
+  <div id="group2" class="parallax__group">
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">I am Coding</div>
+    </div>
+    <div class="parallax__layer parallax__layer--back">
+      <div class="title">Background Group 2</div>
+      <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+      </div>
+    </div>
+  </div>
+  <div id="group3" class="parallax__group">
+    <div class="parallax__layer parallax__layer--fore">
+      <div class="title">Foreground Layer</div>
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">Base Layer</div>
+    </div>
+  </div>
+  <div id="group4" class="parallax__group">
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">Base Layer</div>
+    </div>
+    <div class="parallax__layer parallax__layer--back">
+      <div class="title">Background Layer</div>
+    </div>
+  </div>
+  <div id="group5" class="parallax__group">
+    <div class="parallax__layer parallax__layer--fore">
+      <div class="title">Foreground Layer</div>
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">Base Layer</div>
+    </div>
+  </div>
+  <div id="group6" class="parallax__group">
+    <div class="parallax__layer parallax__layer--back">
+      <div class="title">Background Layer</div>
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">Base Layer</div>
+    </div>
+  </div>
+  <div id="group7" class="parallax__group">
+    <div class="parallax__layer parallax__layer--base">
+      <div class="title">Base Layer</div>
+    </div>
+  </div>
 </div>
 
-<div class="page-wrapper"> 
+<!-- <div class="page-wrapper"> 
   <h1>why</h1>
-</div>
+</div> -->
 
 <!-- partial -->
   
